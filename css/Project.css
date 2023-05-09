@@ -1,0 +1,255 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    scroll-padding-top: 2rem;
+}
+
+.container-fluid{
+    font-weight: 500;
+}
+
+section{
+    padding: 2rem 0 1rem;
+}
+
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: grey;
+    color: #fcfeff;
+    padding: 8px 14px;
+    border: 1px solid hsl(200, 100%, 99% / 5%);
+    margin-bottom: 2rem;
+}
+
+.heading-tittle{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.carousel-caption{
+    z-index: 2;
+    font-family: 'poppins';
+}
+
+.carousel-inner::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.7);
+    z-index: 1;
+}
+
+.wrapper{
+    margin: 15px auto;
+    width: 100%;
+}
+
+.wrapper img{
+    float: left;
+    margin-right: 20px;
+}
+
+.text-box{
+    color: #fcfeff;
+}
+
+.text-box h2{
+    font-size: 25px;
+    color: rgb(230, 225, 126);
+}
+
+.text-box p{
+    font-size: 18px;
+    text-align: justify;
+}
+
+.anime-box{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.anime-box.img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.anime-box .box-text{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 14px;
+    color: #fcfeff;
+    background: linear-gradient(8deg, 
+    hsl(240 17% 14% / 74%) 14%, 
+    hsl(240 17% 14% / 14%) 44%);
+}
+
+.anime-tittle{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.anime-type{
+    font-size: 0.7rem;
+}
+
+.card-tittle{
+    font-size: 15px;
+}
+
+.card-text{
+    text-align: justify;
+    font-size: 13px;
+}
+
+ol{
+    font-size: 13px;
+    text-align: justify;
+    color: black;
+}
+
+.wrapperrr img{
+    float: right;
+    margin-left: 20px;
+}
+
+.wrapperrr{
+    margin: 15px auto;
+    width: 100%;
+}
+
+.text-boxx{
+    color: #fcfeff;
+}
+
+.text-boxx h2{
+    font-size: 23px;
+    color: rgb(230, 225, 126);
+}
+
+.text-boxx p{
+    font-size: 16px;
+    text-align: justify;
+}
+
+.container-contact{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content{
+    max-width: 100%;
+    text-align: center;
+}
+
+.content p{
+    font-size: 23px;
+    color: rgb(230, 225, 126);
+    font-weight: 500;
+}
+
+.containerrr{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.containerrr .contactinfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.containerrr .contactinfo .box{
+    position: relative;
+    padding: 10px 0px;
+    display: flex;
+}
+
+.containerrr .contactinfo .box .icon{
+    min-width: 50px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+
+.containerrr .contactinfo .box .text{
+    display: flex;
+    margin-left: 5px;
+    font-size: 16px;
+    color: #fcfeff;
+    flex-direction: column;
+    font-weight: 300;
+}
+
+.containerrr .contactinfo .box .text h3{
+    font-size: 25px;
+    color: rgb(203, 235, 135);
+}
+
+.contactform {
+    width: 40%;
+    padding: 40px;
+    background: #fcfeff;
+}
+
+.contactform h2{
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.contactform .inputBox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.contactform .inputBox input,
+.contactform .inputBox textarea{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+    background-color: #fcfeff;
+    color: black;
+}
+
+.contactform .inputBox span{
+    position: absolute;
+    left: 0;
+    color: black;
+    
+}
